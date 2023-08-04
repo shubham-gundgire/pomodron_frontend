@@ -1,0 +1,121 @@
+.main{
+
+        width: 100%;
+        min-height: 100vh !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 0px 24px 0px;
+        background-color: #397097;
+}
+
+.box{
+    width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+.clock{
+    min-width: 480px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+.menu{
+width: 100%;
+display: flex;
+height: 15%;
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+}
+.btn1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.btn2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #397097;
+}
+.btn1:hover,.btn2:hover{
+    cursor: pointer;
+}
+.timer{
+width: 100%;
+height: 70%;
+background-color: rgba(255, 255, 255, 0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Roboto', sans-serif;
+font-size: 120px;
+font-weight: bold;
+
+}
+
+.controles{
+    margin-top: 10px;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+
+}
+.btndiv{
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+.controlbtn{
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.controlbtn:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 550px){
+    .clock{
+        min-width: 380px;
+       
+    }
+    .timer{
+        font-size: 100px;
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .clock{
+        min-width: 300px;
+       
+    }
+    .timer{
+        font-size: 100px;
+        padding: 0px 10px;
+    }
+}
